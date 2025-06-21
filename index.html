@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+          <ul class="nav-bar">
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="about"><a href="../about/about.html">About</a></li>    
+        <li class="projects"><a href="../projects/project.html">Projects</a></li>
+        <li class="contact"><a href="../contacts/Contact.html">Contact</a></li>
+      </ul>
+    <div class="typing-container">
+      <h1>I am a <span id="sentence" class="sentence"></span></h1>
+    </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed= new Typed(".sentence", {
+        strings:["Developer","disigner","dreamer"],
+        typeSpeed: 160,
+        backSpeed: 160,
+        loop:true
+        
+      })
+    </script>
+  </body>
+</html>
