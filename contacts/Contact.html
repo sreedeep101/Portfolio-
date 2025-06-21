@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Contacts</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="side-container">
+      <div class="space"></div>
+       <ul class="bottom-side">
+         <li><a href="mailto:sreedeeppradeep101@gmail.com"><img src="./data/mail.png"/></a></li>
+         <li><a href="https://www.instagram.com/sree_dee_p?igsh=MTZ1bG9wMjZmNGt3Zw=="><img src="./data/insta.png"/></a></li>
+         <li><a href="https://www.linkedin.com/in/sreedeep-pradeep"><img src="./data/linkedin.png"/></a></li>
+         <li><a href="https://github.com/sreedeep101"><div class="img-git"><img src="./data/github.png"/></div></a></li>
+       </ul>
+    </div>
+    <div class="container">
+          <ul class="nav-bar">
+        <li class="home"><a href="../index.html">Home</a></li>
+        <li class="about"><a href="../about/about.html">About</a></li>    
+        <li class="projects"><a href="../projects/project.html">Projects</a></li>
+        <li class="contact"><a href="../contacts/Contact.html">Contact</a></li>
+      </ul>
+      <div class="message-box">
+        <h2>CONTACT ME..</h2>
+        <hr/>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="043f0129-819b-4940-afa8-ac38ad94482b">
+          <h3>Name :</h3>
+          <input type="text" name="name" placeholder="Enter Your name" required/><br/>
+          <h3>Email :</h3>
+          <input type="email" name="email" placeholder="Enter Your Email" required/>
+          <h3>Message :</h3>
+          <textarea class="textarea" placeholder="Type Something..." name="message" required></textarea>
+          <br/>
+         <button class="btn"type="submit">Send Message</button>
+        </form>
+        <img class="image" src="./data/contact.gif"/>
+      </div>
+    </div>
+  </body>
+</html>

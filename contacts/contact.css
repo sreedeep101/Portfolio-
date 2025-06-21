@@ -1,0 +1,126 @@
+*{
+  padding:0;
+  margin: 0;
+}
+body{
+  display: flex;
+}
+.container{
+  background: linear-gradient(to right,#ebba4d,#393736);
+  width: 100vw;
+  height: 100vh;
+  padding-top: 20px ;
+}
+.nav-bar{
+  border-radius: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  height: 30px;
+  background-color: #a3a9b282;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 10px 20px 10px;
+}
+.nav-bar li a{
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.contact {
+  display: inline-block;
+  border-bottom: 3px solid white;
+  padding: 2px;
+}
+.side-container{
+  background-color: black;
+  width: 120px;
+  height: 100vh;
+  color: white;
+}
+.space{
+  height: 340px;
+}
+.bottom-side{
+  position:relative;
+}
+.bottom-side img{
+  width:90px;
+  margin-top: 25px;
+}
+.img-git{
+  width: 88px;
+  border-radius: 50%;
+  height: 88px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.img-git img{
+  margin-top: 0;
+}
+.message-box{
+  width: 900px;
+  height: 500px;
+  background-color: #a3a9b282;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 140px;
+  flex-direction: column;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.message-box h2{
+  margin-top: -40px;
+  color: white;
+  
+}
+.message-box hr{
+  width: 100px;
+  height: 3px;
+  background-color: black;
+}
+form h3{
+  margin-top: 20px;
+}
+form input{
+  width: 330px;
+  height: 27px;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+form textarea{
+  width: 330px;
+  height: 87px;
+  border-radius: 10px;
+  margin-left: 20px;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+.btn{
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 150px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  background: linear-gradient(45deg,red,blue);
+}
+.image{
+  margin-left: 500px;
+  height: 400px;
+  margin-top: -250px;
+}
