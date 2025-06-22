@@ -33,6 +33,9 @@
   border-bottom: 3px solid white;
   padding: 2px;
 }
+.Text-phon{
+  display:none;
+}
 .hero{
   margin-top: 25px;
   display: flex;
@@ -86,8 +89,9 @@
 }
 
 .lan-img {
+  margin-bottom: 100px;
   width: 600px;
-  height: 200px;
+  height: 330px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: 20px;
@@ -100,3 +104,153 @@
   width: 50px;
   height: 50px;
 }
+.edtext{
+  text-align-last: center;
+  color:white;
+  margin-left: -40px;
+  font-size: 39px;
+  
+}
+.underline{
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: black;
+}
+.edu-container{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-left: 270px;
+}
+.side-indicator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  flex-direction: column;
+  padding: 17px;
+  height: max-content;
+}
+.point{
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+  background-color: black;
+}
+.line{
+  width: 10px;
+  height: 108px;
+  border-radius: 10px;
+  background-color: #4a4848;
+}
+.edu-info{
+  
+}
+.low{
+  margin-top: 20px;
+}
+.upper{
+  margin-top: 70px;
+}
+.high{
+  margin-top: 100px ;
+}
+.higher{
+  margin-top: 86px;
+}
+.degree{
+  margin-top: 80px;
+  color: #a7cfeb88;
+}
+.p5{
+  background-color: white;
+}
+@media (max-width:900px){
+  .hero{
+    flex-direction: column;
+  }
+}
+@media (max-width:850px){
+  .edu-container{
+    margin-left: 100px;
+  }
+}
+@media (max-width: 800px){
+  .lan-img {
+  width: 400px;
+  height: 600px;
+  grid-template-columns: repeat(2,1fr);
+}
+.changer{
+  display: none;
+}
+}
+@media (max-width:600px){
+  .nav-bar{
+    width:85vw;
+  }
+  .lan-img {
+    width: 280px;
+    grid-template-columns: repeat(1,1fr);
+    height: 900px;
+    }
+  .Text-container{
+  margin-left: 0px;
+  width:330px;
+  color: white;
+}
+.Text-container h2{
+  font-size: 28px;
+  display:none;
+}
+.Text-container p{
+  font-size: 18px;
+  align-self: left;
+}
+.img-container{
+  border-radius: 50%;
+  width:260px;
+  height: 260px;
+  background-color: #7e6a3f;
+  border: 6px solid  white;
+}
+.img-container img{
+  border-radius: 50%;
+  width: 260px;
+}
+.Text-phon{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  
+}
+.edu-container{
+    margin-left: 10px;
+  }
+}
+@media (max-width:500px){
+  .low{
+  margin-top: 20px;
+}
+.upper{
+  margin-top: 10vw;
+}
+.high{
+  margin-top: 10vw ;
+}
+.higher{
+  margin-top: 10vw;
+}
+.degree{
+  margin-top: 10vw;
+  color: #a7cfeb88;
+}
+}
+
+  
