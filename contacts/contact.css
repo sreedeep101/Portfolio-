@@ -120,7 +120,100 @@ form textarea{
   background: linear-gradient(45deg,red,blue);
 }
 .image{
-  margin-left: 500px;
+  margin-left: 450px;
   height: 400px;
   margin-top: -250px;
+}
+.bottom-phon{
+  display: none;
+}
+/* responsive section */
+@media only screen and (max-width:1100px){
+  .image{
+    display: none;
+  }
+  .message-box{
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 900px){
+  .nav-bar{
+    width: 64vw;
+  }
+  .message-box{
+    width: 510px;
+    padding: 50;
+  }
+  .side-container{
+  width: 90px;
+}
+.space{
+  height: 300px;
+}
+.bottom-side img{
+  width:60px;
+  margin-top: 20px;
+}
+.img-git{
+  width: 58px;
+  height: 58px;
+  margin-top: 20px;
+}
+.img-git img{
+  margin-top: 0;
+}
+}
+@media only screen and (max-width:650px){
+   .message-box{
+    width: 470px;
+    padding: 40px;
+  }
+  .message-box h2{
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 600px){
+  .message-box{
+    width: 330px;
+    padding: 30px;
+    height: max-content;
+  }
+  .image{
+    display: none;
+  }
+  .message-box h2{
+  margin-top: 10px;
+  color: white;
+  
+}
+.nav-bar{
+  width: 85vw;
+}
+.side-container{
+  display: none;
+}
+form input{
+  width: 220px;
+}
+form textarea{
+  width: 220px;
+}
+.btn{
+  margin-left: 90px;
+}
+.bottom-phon{
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.bottom-phon img{
+  width: 50px;
+}
+.container{
+  height: max-content;
+}
+
 }
